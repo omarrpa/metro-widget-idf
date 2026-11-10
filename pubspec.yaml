@@ -1,0 +1,26 @@
+# Metro Widget IDF - prochains passages temps réel (PRIM IDFM)
+# Créé par : Omar Pérez - 2026-11-09 08:10
+name: metro_widget
+description: Prochains passages metro, RER, tram et bus autour de ma position, avec widget écran d'accueil.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  geolocator: ^14.0.0
+  home_widget: ^0.9.1
+  workmanager: ^0.9.0
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
