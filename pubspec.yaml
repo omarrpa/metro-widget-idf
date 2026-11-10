@@ -13,8 +13,8 @@ dependencies:
     sdk: flutter
   http: ^1.2.2
   geolocator: ^14.0.0
-  home_widget: ^0.9.1
-  workmanager: ^0.9.0
+  home_widget: ^0.10.0
+  workmanager: ^0.10.10
   path_provider: ^2.1.4
 
 dev_dependencies:

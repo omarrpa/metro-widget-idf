@@ -11,7 +11,7 @@ auteur: Omar Pérez
 - [ ] Premier run GitHub Actions vert + APK installé sur le téléphone
 - [ ] Vérifier les noms techniques des champs ODS (`zdaxepsg2154`, `colourweb_hexa`). Si la requête avec `select` échoue, le code télécharge le CSV complet.
 - [ ] Vérifier que `data.iledefrance-mobilites.fr` sert toujours les exports. Sinon, modifier `AppConfig.odsBase` (miroir : data.iledefrance.fr).
-- [ ] Vérifier les constantes de l'API workmanager 0.9 (`NetworkType.connected`)
+- [ ] Vérifier les constantes de l'API workmanager 0.10 (`NetworkType.connected`)
 
 ## Améliorations
 - [ ] Filtre de modes (masquer les bus) et lignes favorites épinglées

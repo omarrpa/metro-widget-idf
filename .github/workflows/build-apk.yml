@@ -32,7 +32,9 @@ jobs:
           cp android/keystore/debug.keystore ~/.android/debug.keystore
 
       - name: Génération des fichiers Android manquants
-        run: flutter create --org com.omarperez --project-name metro_widget --platforms android .
+        run: |
+          flutter create --org com.omarperez --project-name metro_widget --platforms android .
+          rm -rf test
 
       - run: flutter pub get
 
